@@ -8,7 +8,7 @@ CFLAGS += -std=gnu99
 CFLAGS += -Wall -Wundef -Wshadow -Wformat-security
 
 LD = $(CC)
-LDFLAGS += $(shell pkg-config --libs x11)
+LDFLAGS += $(shell pkg-config --libs x11 xcb)
 
 .NOTPARALLEL:
 
