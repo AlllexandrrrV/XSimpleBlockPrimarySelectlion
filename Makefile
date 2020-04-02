@@ -1,4 +1,4 @@
-TARGET = xstupidblockprimaryselectlion
+TARGET = xsimpleblockprimaryselectlion
 INSTALL = install
 PREFIX = /usr
 BINDIR = $(PREFIX)/bin
